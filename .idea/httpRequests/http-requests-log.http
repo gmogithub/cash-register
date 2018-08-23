@@ -1,0 +1,190 @@
+PUT http://localhost:8000/admin/rights
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Accept: application/json
+
+{"id":2,"code":"API_SAVE_RIGHT","name":"Save right 2","description":"Peut sauvegarder les droit","api":"@post:market/rights"}
+
+<> 2018-07-27T102245.200.json
+
+###
+
+PUT http://localhost:8000/admin/rights
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Accept: application/json
+
+{"id":2,"code":"API_SAVE_RIGHT","name":"Save right","description":"Peut sauvegarder les droit","api":"@post:market/rights"}
+
+<> 2018-07-27T102208.200.json
+
+###
+
+PUT http://localhost:8000/admin/rights
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json;charset=UTF-8
+Accept: application/json
+
+<> 2018-07-27T102032.400.html
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T085825.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T085033.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T085018.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T084432.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T083749.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T083736.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T083505.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T083300.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-07-02T083215.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-29T085334.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-29T085237.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-29T085134.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-28T085500.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-28T085058.200.txt
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-28T084932.415.html
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+{"code": "000"}
+
+<> 2018-06-28T084726.415.html
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+{"code": "000"}
+
+<> 2018-06-28T084451.404.html
+
+###
+
+POST http://localhost:8181/test/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-28T084329.404.html
+
+###
+
+POST http://localhost:8181
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-28T084314.404.html
+
+###
+

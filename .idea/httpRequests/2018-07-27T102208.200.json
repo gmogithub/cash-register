@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "code": "API_SAVE_ORDER",
+    "name": "Save order",
+    "description": "Peut sauvegarder les orders",
+    "api": "@post:market/orders"
+  },
+  {
+    "id": 2,
+    "code": "API_SAVE_RIGHT",
+    "name": "Save right",
+    "description": "Peut sauvegarder les droit",
+    "api": "@post:market/rights"
+  },
+  {
+    "id": 3,
+    "code": "API_UPDATE_RIGHT",
+    "name": "Update right",
+    "description": "Peut mettre à jour les droits",
+    "api": "@put:market/rights/{id}"
+  },
+  {
+    "id": 4,
+    "code": "ACCESS_TEST",
+    "name": "Access Test",
+    "description": "Acces au test",
+    "api": "@test"
+  },
+  {
+    "id": 5,
+    "code": "ACCESS_MANU",
+    "name": "Access au menu",
+    "description": "Access menu",
+    "api": ""
+  },
+  {
+    "id": 6,
+    "code": "A",
+    "name": "A",
+    "description": "A",
+    "api": null
+  }
+]
