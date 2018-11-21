@@ -5,6 +5,7 @@ import {GMTable} from "../../../components/gui/GMTable";
 import TableCell from '@material-ui/core/TableCell';
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
+// import {TestDecorator} from "../../../utils/TestDecorator";
 // import Dialog from '@material-ui/core/Dialog';
 // import DialogTitle from '@material-ui/core/DialogTitle';
 // import DialogContent from '@material-ui/core/DialogContent';
@@ -22,6 +23,7 @@ import {RightDialog} from "./RightDialog";
 //         paddingBottom: '5px'
 //     }
 // };
+
 
 const rightService = new RightService();
 
@@ -81,6 +83,8 @@ class PureRights extends Component {
     render () {
         let {open, rightId} = this.state;
         let rights = this.getDataRights()
+        // let test = TestDecorator.newInstance();
+
         // let {right} = this.state;
         // let {open} = this.state;
         return (<div>
