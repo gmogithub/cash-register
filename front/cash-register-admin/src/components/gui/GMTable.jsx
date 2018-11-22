@@ -13,14 +13,14 @@ export class GMTable extends Component {
     //     super(props);
     // }
 
-    componentDidMount() {
+    componentDidMount () {
 
     }
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate (prevProps, prevState, snapshot) {
     }
 
-    getColumns() {
+    getColumns () {
         const {children} = this.props;
         return <TableHead>
             <TableRow>
@@ -29,7 +29,7 @@ export class GMTable extends Component {
         </TableHead>;
     }
 
-    getActions(data) {
+    getActions (data) {
         if (data._actions && data._actions.length > 0) {
             return data._actions.map((d, i) => {
                 return <TableCell key={'delete_right_' + i}>
@@ -41,7 +41,7 @@ export class GMTable extends Component {
         return null;
     }
 
-    getRows() {
+    getRows () {
         let {data} = this.props;
         let cells = data.map(d => {
             return (
@@ -65,7 +65,7 @@ export class GMTable extends Component {
         }
     };
 
-    render() {
+    render () {
         return <Table>
             {this.getColumns()}
             {this.getRows()}
