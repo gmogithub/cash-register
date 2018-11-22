@@ -13,6 +13,7 @@ import AddIcon from '@material-ui/icons/Add';
 // import DialogActions from '@material-ui/core/DialogActions';
 import {connect} from "react-redux";
 import {setRights} from "../../../store/actions/rightAction";
+import {HttpService} from "../../../utils/HttpService";
 // // import InputLabel from '@material-ui/core/InputLabel';
 // import FormControl from '@material-ui/core/FormControl';
 // import SaveIcon from '@material-ui/icons/Save';
@@ -26,6 +27,15 @@ import {RightDialog} from "./RightDialog";
 
 
 const rightService = new RightService();
+
+const middle1 = (error, api, method, body) => {
+    console.log(error, api, method, body, '=================================== middle 1 ==========');
+};
+const func = () => {
+    console.log("middle 2")
+};
+
+const httpService = new HttpService([middle1, func]);
 
 class PureRights extends Component {
 
@@ -83,6 +93,8 @@ class PureRights extends Component {
     render () {
         let {open, rightId} = this.state;
         let rights = this.getDataRights()
+        httpService.post('admin/rights', {id: 10})
+
         // let test = TestDecorator.newInstance();
 
         // let {right} = this.state;
