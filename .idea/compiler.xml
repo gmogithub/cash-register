@@ -9,8 +9,8 @@
         <module name="cash-register" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cash-register" target="1.8" />
+    <bytecodeTargetLevel target="11">
+      <module name="cash-register" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

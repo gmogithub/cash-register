@@ -11,7 +11,7 @@ public class User extends Person {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "address_id")
-    Address address;
+    private Address address;
 
     public Address getAddress() {
         return address;
